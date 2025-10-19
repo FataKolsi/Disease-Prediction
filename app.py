@@ -29,9 +29,8 @@ if rad == "Home":
 
     # Text info below
     st.text("The Following Disease Predictions Are Available ->")
-    st.text("1. Decubitus Ulcer Prediction")
-    st.text("2. Diabetes Prediction")
-    st.text("3. Heart Disease Prediction")
+    st.text("1. Diabetes Prediction")
+    st.text("2. Heart Disease Prediction")
 
 #Diabetes Prediction
 
