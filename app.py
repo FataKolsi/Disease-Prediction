@@ -99,8 +99,3 @@ if rad=="Heart Disease":
             st.warning("You Might Be Affected By Diabetes")
         elif str(prediction3)=="Absence":
             st.success("You Are Safe")
-
-        st.plotly_chart(fig)
-    elif type=="Heart Disease":
-        fig=px.scatter(df3,x="BP",y="Heart Disease")
-        st.plotly_chart(fig)
