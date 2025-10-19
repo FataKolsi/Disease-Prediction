@@ -19,13 +19,13 @@ if rad == "Home":
     col1, col2, col3 = st.columns(3)
 
     with col1:
-        st.image("Doctor.jpeg", caption="Heart Specialist", use_column_width=True)
+        st.image("Doctor.jpeg", caption="Heart Specialist", width=200)
 
     with col2:
-        st.image("Soham.jpeg", caption="Psychiatrist", use_column_width=True)
+        st.image("Soham.jpeg", caption="Psychiatrist", width=200)
 
     with col3:
-        st.image("Raju.jpeg", caption="Gynaecologist", use_column_width=True)
+        st.image("Raju.jpeg", caption="Gynaecologist", width=200)
 
     # Text info below
     st.text("The Following Disease Predictions Are Available ->")
