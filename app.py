@@ -109,6 +109,6 @@ if rad=="Heart Disease":
     #on the basis of prediction the results are displayed
     if st.button("Predict"):
         if str(prediction3)=="Presence":
-            st.warning("You Might Be Affected By Diabetes")
+            st.warning("You Might Have Heart Disease")
         elif str(prediction3)=="Absence":
             st.success("You Are Safe")
