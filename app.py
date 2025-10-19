@@ -8,7 +8,7 @@ import joblib
 # -------------------------------
 @st.cache_resource
 def load_model():
-    model = joblib.load("model.joblib")  # Your pre-trained model
+    model = joblib.load("decision_tree.joblib")  # Your pre-trained model
     return model
 
 @st.cache_data
