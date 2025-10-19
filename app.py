@@ -25,7 +25,7 @@ if rad == "Home":
         st.image("Soham.jpeg", caption="Psychiatrist", width=200)
 
     with col3:
-        st.image("Raju.jpeg", caption="Gynaecologist", width=250)
+        st.image("Raju.jpeg", caption="Gynaecologist", width=230)
 
     # Text info below
     st.text("The Following Disease Predictions Are Available ->")
