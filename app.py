@@ -15,6 +15,7 @@ rad=st.sidebar.radio("Navigation Menu",["Home","Covid-19","Diabetes","Heart Dise
 if rad=="Home":
     st.title("Medical Predictions App")
     st.image("Doctor.jpeg")
+    st.text("Heart Specialist")
     st.text("The Following Disease Predictions Are Available ->")
     st.text("1. Covid-19 Infection Predictions")
     st.text("2. Diabetes Predictions")
