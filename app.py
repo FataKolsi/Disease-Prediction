@@ -16,7 +16,7 @@ if rad == "Home":
     st.title("Medical Predictions App")
 
     # 4 images side by side
-    col1, col2, col3, col4 = st.columns(3)
+    col1, col2, col3 = st.columns(3)
 
     with col1:
         st.image("Doctor.jpeg", caption="Heart Specialist", use_column_width=True)
