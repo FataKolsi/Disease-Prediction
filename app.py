@@ -12,12 +12,26 @@ rad=st.sidebar.radio("Navigation Menu",["Home","Diabetes","Heart Disease"])
 #Home Page 
 
 #displays all the available disease prediction options in the web app
-if rad=="Home":
+if rad == "Home":
     st.title("Medical Predictions App")
-    st.image("Doctor.jpeg",width=200)
+
+    # 4 images side by side
+    col1, col2, col3, col4 = st.columns(3)
+
+    with col1:
+        st.image("Doctor.jpeg", caption="Heart Specialist", use_column_width=True)
+
+    with col2:
+        st.image("Soham.jpeg", caption="Psychiatrist", use_column_width=True)
+
+    with col3:
+        st.image("Raju.jpeg", caption="Gynaecologist", use_column_width=True)
+
+    # Text info below
     st.text("The Following Disease Predictions Are Available ->")
-    st.text("2. Diabetes Predictions")
-    st.text("3. Heart Disease Predictions")
+    st.text("1. Decubitus Ulcer Prediction")
+    st.text("2. Diabetes Prediction")
+    st.text("3. Heart Disease Prediction")
 
 #Diabetes Prediction
 
